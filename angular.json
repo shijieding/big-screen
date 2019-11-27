@@ -28,9 +28,14 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
               "src/styles.styl"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/echarts/dist/echarts.min.js",
+              "./node_modules/echarts/dist/extension/bmap.min.js",
+              "./node_modules/echarts/msp/js/china.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -88,6 +93,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
               "src/styles.styl"
             ],
             "scripts": []
@@ -119,6 +125,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "big-screen"
 }

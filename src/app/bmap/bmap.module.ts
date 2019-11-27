@@ -8,7 +8,7 @@ import { BmapComponent } from './bmap/bmap.component';
   declarations: [BmapComponent],
   imports: [
     CommonModule,
-    BmapRoutingModule
+    BmapRoutingModule,
   ]
 })
 export class BmapModule { }
